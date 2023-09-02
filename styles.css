@@ -1,0 +1,206 @@
+:root {
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./images/bg-pattern-top-mobile.svg"), url("./images/bg-pattern-bottom-mobile.svg");
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: var(--White);
+    color: var(--Very-Dark-Magenta);
+    font-family: 'League Spartan', sans-serif;
+    max-width: 100vw;
+    height: 100vh;
+}
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+    overflow: hidden;
+  }
+  main {
+    max-width: 91%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  h2 {
+    margin-top: 4.5rem;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 80%;
+  }
+  .promotion {
+    font-size: 18px;
+    opacity: 0.7;
+    line-height: 1.4;
+    margin-bottom: 2.8rem;
+  }
+  .ratings-container {
+    margin-bottom: 2rem;
+  }
+  .rating {
+    background-color: var(--Light-Grayish-Magenta);
+    border-radius: 8px;
+    width: 100%;
+    height: 3.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.1rem;
+    padding-top: 1rem;
+  }
+  .rated-5-stars {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    font-weight: 700;
+  }
+  .rating-star {
+    margin-left: 0.13rem;
+    margin-right: 0.13rem;
+  }
+  .comments {
+    margin-bottom: 2rem;
+  }
+  .buyer-comment {
+    background-color: var(--Very-Dark-Magenta);
+    color: var(--White);
+    margin-top: 1.2rem;
+    border-radius: 8px;
+  }
+  .heading {
+    display:flex;
+    padding-left: 10%;
+    padding-top: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 1.7rem
+  }
+  .buyer-icon {
+    border-radius: 50%;
+    aspect-ratio: 1;
+    height: 100%;
+  }
+  .buyer-description {
+    padding-left: 1.5rem;
+  }
+  .buyer-name {
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .buyer-classification {
+    color: var(--Soft-Pink);
+    margin-top: 0.2rem;
+
+  }
+  .comment-text {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+    font-size: 17px;
+    padding-bottom: 2.5rem;
+  }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-bottom: 0;
+    }
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+  @media (min-width: 1440px) {
+    .ratings {
+      display: flex;
+    }
+    .text-container {
+      width: 35%;
+      padding-left: 5.5rem;
+      text-align: left;
+    }
+    h2 {
+      font-size: 55px;
+      margin-top: 7rem;
+    }
+    .promotion {
+      margin-top: 2.3rem;
+    }
+    .rating {
+      display: flex;
+      width: 53%;
+      padding-top: 0;
+      padding-left: 2rem;
+      height: 3.5rem;
+      align-items: center;
+      margin-bottom: 1rem;
+      margin-left: 0;
+    }
+    .rated-5-stars {
+      margin-top: 0;
+      margin-left: 2rem;
+    }
+    #first-rating {
+      margin-top: 8.5rem;
+      margin-left: 9rem;
+    }
+    #second-rating {
+      margin-left: 12.5rem;
+    }
+    #third-rating {
+      margin-left: 15rem;
+     }
+    .ratings-container {
+      width: 65%;
+    }
+    .rating-star {
+      height: 1.1rem;
+      aspect-ratio: 1;
+      margin-left: 0.25rem;
+      margin-right: 0.25rem;    
+    }
+    .comments {
+      width: 90%;
+      display: flex;
+      justify-content: space-evenly;
+      position: relative;
+    }
+    .buyer-comment {
+      width: 22rem;
+      height: 15rem;
+      position: absolute;
+    }
+    #first-buyer-comment {
+      left: 20px;
+    }
+
+    #second-buyer-comment {
+      top: 1.2rem;
+    }
+    #third-buyer-comment {
+      right: 20px;
+      top: 2.4rem;
+    } */
+    .comment-text {
+      font-size: 14px;
+      margin-top: 1.7rem;
+      line-height: 1.4;
+      padding-bottom: 0;
+    }
+    footer {
+      margin-top: 18rem;
+    }
+  }
